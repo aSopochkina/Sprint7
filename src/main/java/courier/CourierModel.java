@@ -34,4 +34,5 @@ public class CourierModel {
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
+
 }

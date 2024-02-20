@@ -7,4 +7,5 @@ public class EndPoints {
     public final static String ORDERS_GET_LIST = "/api/v1/orders";
     public final static String COURIER_DELETE = "/api/v1/courier/";
     public final static String ORDERS_PUT_CANCEL = "/api/v1/orders/cancel";
+
 }

@@ -18,7 +18,6 @@ public class CourierSteps {
                 .contentType(ContentType.JSON)
                 .baseUri(URL);
     }
-
     @Step("Регистрация нового курьера")
     public ValidatableResponse createCourier(CourierModel courierModel) {
         return requestSpec()

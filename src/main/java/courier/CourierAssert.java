@@ -51,5 +51,6 @@ public class CourierAssert {
                 .statusCode(404)
                 .body("message", equalTo("Учетная запись не найдена"));
     }
+
 }
 

@@ -3,7 +3,6 @@ package courier;
 public class CourierModelLogin {
     private String login;
     private String password;
-
     public CourierModelLogin(String login, String password){
         this.login = login;
         this.password = password;

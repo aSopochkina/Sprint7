@@ -17,7 +17,6 @@ public class CreateCourierTests {
     private CourierSteps courierSteps;
     private CourierModel courierModel;
     private CourierAssert courierAssert;
-
     @Before
     @Step("Создание тестовых данных курьера")
     public void setUp() {

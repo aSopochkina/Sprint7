@@ -22,7 +22,6 @@ public class OrderParamTest {
     private final List<String> colour;
     int track;
     private OrderSteps orderSteps;
-
     public OrderParamTest(List<String> colour) {
         this.colour = colour;
     }
